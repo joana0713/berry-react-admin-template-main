@@ -1,174 +1,75 @@
-# Berry Free React Material UI Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# Getting Started with Create React App
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-react-admin-template/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-react-admin-template)](https://github.com/codedthemes/berry-free-react-admin-template/)
-[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/berry-mui-free-react-admin-template/)
-[![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Berry is a free Material UI admin dashboard template built with React. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
+## Available Scripts
 
-✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
+In the project directory, you can run:
 
-![IMG_8566.jpg](https://berrydashboard.com/imp-images/berry-github-free-repo-1.jpg)
+### `Yarn`
 
-## Table of contents
+Install packages
 
-- [Getting Started](#getting-started)
-- [Download](#download)
-- [Why Berry?](#why-berry)
-- [What's included in Premium Version?](#whats-included-in-premium-version)
-- [Documentation](#documentation)
-- [Browser support](#browser-support)
-- [Technology Stack](#technology-stack)
-- [Berry Figma UI Kit](#berry-figma-ui-kit)
-- [Other Technologies](#other-technologies)
-- 💰[Save more with Big Bundle](#save-more-with-big-bundle)💰
-- [More React Dashboard Templates](#more-react-dashboard-templates)
-- [Issues?](#issues)
-- [License](#license)
-- [Contributor](#contributor)
-- [Useful Resources](#useful-resources)
-- [Community](#community)
-- [Follow us](#follow-us)
+### `Yarn start`
 
-## Getting Started
+Runs the app in the development mode.\
 
-Clone from Github
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```
-git clone https://github.com/codedthemes/berry-free-react-admin-template.git
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Download
+### `yarn test`
 
-- Berry Free
-  - [Live Preview](https://berrydashboard.com/free/)
-  - [Download](https://github.com/codedthemes/berry-free-react-admin-template)
-- Berry
-  - [Live Preview](https://berrydashboard.com)
-  - [Download](https://material-ui.com/store/items/berry-react-material-admin/)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Why Berry?
+### `yarn build`
 
-Berry offers everything you need to create dashboards. We have included the following high-end features in our initial release:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Modern aesthetics UI design
-- Material-UI components
-- Fully Responsive, all modern browser supported
-- Easy to use code structure
-- Flexible & High-Performance code
-- Easy Documentation Guide
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## What's included in Premium Version?
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[Pro version](https://berrydashboard.com) of Berry react template contains features like TypeScript, Next.js Seed versions, Apps, Authentication Methods (i.e. JWT, Auth0, Firebase, AWS, Supabase), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+### `yarn eject`
 
-| [Berry Free](https://berrydashboard.com/free/) | [Berry](https://material-ui.com/store/items/berry-react-material-admin/) |
-| ---------------------------------------------- | :----------------------------------------------------------------------- |
-| **9** Demo pages                               | **45+** demo pages                                                       |
-| -                                              | ✓ Multi-language                                                         |
-| -                                              | ✓ Dark/Light Mode 🌓                                                     |
-| -                                              | ✓ TypeScript version                                                     |
-| -                                              | ✓ Design files (Figma)                                                   |
-| -                                              | ✓ 6+ color Options                                                       |
-| -                                              | ✓ RTL                                                                    |
-| -                                              | ✓ JWT, Firebase, Auth0, AWS, Supabase authentications                    |
-| -                                              | ✓ [More components](https://berrydashboard.com/components/autocomplete)  |
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Documentation
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[Berry Documentation](https://codedthemes.gitbook.io/berry/) helps you with installation, deployment, and troubleshooting.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Browser support
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/chrome.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/edge.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/safari.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/firefox.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/opera.png" width="45" height="45" >
+## Learn More
 
-## Technology Stack
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [Material UI V7](https://material-ui.com/)
-- [React 19.2](https://react.dev/)
-- Built with React Hooks API
-- Redux & React Context API for State Management
-- React Router for Navigation Routing
-- Support of vite
-- Code Splitting
-- CSS-in-JS where CSS is composed using JavaScript instead of defined in external files
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Berry Figma UI Kit
+### Code Splitting
 
-<div>
-  <a href="https://codedthemes.com/item/berry-free-figma-ui-kit/">
-    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Berry.png" width="450" alt="Figma Free">
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://codedthemes.com/item/berry-figma-ui-kit/">
-    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma-Pro-Berry.png" width="450" alt="Figma Pro">
-  </a>
-</div>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Other Technologies
+### Analyzing the Bundle Size
 
-| Technology                                                                                                                        | Free                                                                              | Pro                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/berry-angular-free-admin-template/)       | [**Pro**](https://codedthemes.com/item/berry-angular-admin-dashboard-template/) |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/berry-bootstrap-free-admin-template/)     | [**Pro**](https://codedthemes.com/item/berry-bootstrap-5-admin-template/)       |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Vue.png" width="25" height="25"></p>       | [**Free**](https://codedthemes.com/item/berry-free-vuetify-vuejs-admin-template/) | [**Pro**](https://codedthemes.com/item/berry-vue-admin-dashboard/)              |
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Save more with Big Bundle
+### Making a Progressive Web App
 
-[![bundle-image](https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Bundle+banner.png)](https://links.codedthemes.com/jhFBJ)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## More React Dashboard Templates
+### Advanced Configuration
 
-| Dashboard                                                                                                                                                          | FREE                                                                                | PRO                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Mantis%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;">  | [**Free**](https://mantisdashboard.com/free/)                                       | [**Pro**](https://mui.com/store/items/mantis-react-admin-dashboard-template/)</span>  |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Datta%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;">    | [**Free**](https://codedthemes.com/item/datta-able-react-free-admin-template/)      | [**Pro**](https://codedthemes.com/item/datta-able-react-admin-template/)</span>       |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Gradient%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/gradient-able-reactjs-free-admin-template/) | [**Pro**](https://codedthemes.com/item/gradient-able-reactjs-admin-dashboard/)</span> |
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Issues
+### Deployment
 
-To report a bug, please submit an [issue](https://github.com/codedthemes/berry-free-react-admin-template/issues) on Github. We will respond as soon as possible to resolve the issue.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## License
+### `yarn build` fails to minify
 
-- Licensed cover under [MIT](https://github.com/codedthemes/berry-free-react-admin-template/blob/main/LICENSE)
-
-## Contributor
-
-**CodedThemes Team**
-
-- https://x.com/codedthemes
-- https://github.com/codedthemes
-
-**Rakesh Nakrani**
-
-- https://x.com/rakesh_nakrani
-
-**Brijesh Dobariya**
-
-- https://x.com/dobaria_brijesh
-
-## Useful Resources
-
-- [More Admin Templates From CodedThemes](https://codedthemes.com/item/category/admin-templates/)
-- [Freebies From CodedThemes](https://codedthemes.com/item/category/free-templates/)
-- [Big Bundles](https://codedthemes.com/item/big-bundle/)
-- [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
-- [Affiliate Program](https://codedthemes.com/affiliate/)
-- [Blogs](https://blog.codedthemes.com/)
-
-## Community
-
-- 👥Follow [@codedthemes](https://x.com/codedthemes)
-- 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
-- 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
-
-## Follow us
-
-- [Twitter](https://twitter.com/codedthemes) 🐦
-- [Dribbble](https://dribbble.com/codedthemes) 🏀
-- [Github](https://github.com/codedthemes) 🐙
-- [LinkedIn](https://www.linkedin.com/company/codedthemes/) 💼
-- [Instagram](https://www.instagram.com/codedthemes/) 📷
-- [Facebook](https://www.facebook.com/codedthemes) 🟦
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
