@@ -1,5 +1,4 @@
 import { lazy } from 'react';
-
 // project imports
 import MainLayout from 'layout/MainLayout';
 import Loadable from 'ui-component/Loadable';
@@ -16,7 +15,6 @@ const UtilsShadow = Loadable(lazy(() => import('views/utilities/Shadow')));
 const SamplePage = Loadable(lazy(() => import('views/sample-page')));
 
 // ==============================|| MAIN ROUTING ||============================== //
-
 const MainRoutes = {
   path: '/',
   element: <MainLayout />,
